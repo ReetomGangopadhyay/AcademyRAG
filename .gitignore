@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+*.sqlite3
+*.db
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Data / cache
+data/index/
+data/processed/
+*.npy
+*.npz
+*.bin
+*.pkl
+*.h5
+
+# Model caches
+~/
+*.pt
+*.ckpt
+.cache/
+.huggingface/
+sentence_transformers/
+
+# Streamlit cache
+.streamlit/
+.streamlit_cache/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

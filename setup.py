@@ -1,0 +1,20 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="academyrag",
+    version="0.1",
+    packages=find_packages(),
+    install_requires=[
+        'streamlit>=1.38.0',
+        'chromadb>=0.5.5',
+        'openai>=1.40.0',
+        'tiktoken>=0.7.0',
+        'python-dotenv>=1.0.1',
+        'pymupdf>=1.24.9',
+        'python-pptx>=1.0.2',
+        'sentence-transformers>=3.0.1',
+        'scikit-learn>=1.5.1',
+        'pydantic>=2.8.2',
+        'tqdm>=4.66.4',
+    ],
+)
